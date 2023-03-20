@@ -23,6 +23,11 @@ h2{
     height: 100px;
 
 }
+h3{
+    background-color: violet;
+    width: 100px;
+    height: 20px;
+}
 
 /* regole generali */
 *{
@@ -44,7 +49,7 @@ header{
 .logo{
     width: 200px;
     height: 80px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     
 
 }
@@ -84,21 +89,74 @@ ul{
     border-radius: 20px;
 }
 
-
 /* regole main */
 .sezione {
-    width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 400px;
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+}
+.descrizioni{
+    margin-left: 180px;
+
+}
+.reverse{
+    margin-right: 180px;
+
 }
 
 .trovarsi{
     display: flex;
     flex-direction: row-reverse;
+
+}
+.tecnologia{
+   text-align: center;
+   margin-left: 50%;
+
+}
+.tecnologia-lunga{
+    width: 200px;
+height: 50px;
+background-color: red;
 }
 
 
 /* regole footer */
+#info{
+    background-color: rgb(208, 189, 189);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer-access{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 255, 170);
+    border-top: 2px solid black;
+}
+.logo-footer{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.open-footer{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(62, 0, 219);
+    margin: 0 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+
+}
