@@ -1,0 +1,59 @@
+/* regole debug */
+h1{
+    background-color: blue;
+    width: 80%;
+    height: 20px;
+}
+p{
+    background-color: teal;
+    width: 80%;
+    height: 40px;
+}
+
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+header{
+    width: 100%;
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    
+
+}
+.accedi{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(183, 219, 0);
+}
+
+ul{
+    list-style: none;
+}
+.navigazione{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+/* regole jumbotron */
+
+
+/* regole main */
+
+/* regole footer */
