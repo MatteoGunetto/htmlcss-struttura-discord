@@ -85,8 +85,10 @@ ul{
     width: 200px;
     height: 80px;
     background-color: rgb(62, 0, 219);
-    margin: 0 20px;
+    margin-left: 20px;
     border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* regole main */
@@ -112,14 +114,21 @@ ul{
 
 }
 .tecnologia{
-   text-align: center;
-   margin-left: 50%;
-
+    width: 100%;
+    
 }
+.info-tecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .tecnologia-lunga{
-    width: 200px;
-height: 50px;
+width: 80%;
+height: 150px;
 background-color: red;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 
@@ -130,7 +139,6 @@ background-color: red;
     display: flex;
     justify-content: space-around;
 }
-
 
 .footer-access{
     display: flex;
